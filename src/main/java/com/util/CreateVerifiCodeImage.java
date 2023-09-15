@@ -54,6 +54,7 @@ public class CreateVerifiCodeImage {
         for (int i = 0; i < 4; i++) {
             int rand = (int) (Math.random() * (10 + 26 * 2));
             rands[i] = chars.charAt(rand);
+            
         }
         return rands;
     }
